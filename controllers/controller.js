@@ -26,7 +26,7 @@ router.put("/api/burgers/:id", (req, res) => {
 
   burger.update(
     {
-      devoured: req.body.devoured,
+      devoure: req.body.devoure,
     },
     condition,
     (result) => {
